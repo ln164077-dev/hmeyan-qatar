@@ -18,7 +18,7 @@ snaptr('track', 'PAGE_VIEW');
 <!-- End Snap Pixel Code -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>فزعة - ملخص الطلب</title>
+    <title>هميان - ملخص الطلب</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -37,12 +37,26 @@ snaptr('track', 'PAGE_VIEW');
     <!-- Header -->
     <header class="header">
         <div class="container header-content">
-            <div class="logo">
-                <img src="/images/logo.png" alt="Fazaa">
+            <button class="menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="brand-area">
+                <div class="brand-word">هميان</div>
+                <div class="brand-tag">HAMYAN</div>
             </div>
-            <nav class="nav">
-                <a href="#" class="lang-toggle" id="langToggle" onclick="toggleLanguage(); return false;">English</a>
-            </nav>
+
+            <div class="header-actions">
+                <div class="brand-mark" aria-hidden="true">
+                    <span class="mark-stroke"></span>
+                    <span class="mark-crest"></span>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="lang-toggle" id="langToggle" onclick="toggleLanguage(); return false;">English</a>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -155,7 +169,7 @@ snaptr('track', 'PAGE_VIEW');
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-brand">
-                <span class="brand-name">فزعة</span>
+                <span class="brand-name">هميان</span>
             </div>
             <div class="footer-links">
                 <a href="#">سياسة الخصوصية</a>
@@ -164,7 +178,7 @@ snaptr('track', 'PAGE_VIEW');
                 <a href="#">الأسئلة الشائعة</a>
             </div>
             <div class="footer-copyright">
-                <p>© 2026 فزعة. جميع الحقوق محفوظة.</p>
+                <p>© 2026 هميان. جميع الحقوق محفوظة.</p>
             </div>
         </div>
     </footer>
@@ -309,7 +323,7 @@ snaptr('track', 'PAGE_VIEW');
         }
     </style>
     <script>
-        var tierNames = { platinum: 'البلاتينية', gold: 'الذهبية', silver: 'الفضية', fazaa: 'خصومات فزعة' };
+        var tierNames = { platinum: 'البلاتينية', gold: 'الذهبية', silver: 'الفضية', fazaa: 'خصومات هميان' };
         var cityNames = { 'dubai': 'دبي', 'abu-dhabi': 'أبوظبي', 'sharjah': 'الشارقة', 'ajman': 'عجمان' };
         
         var step1 = JSON.parse(sessionStorage.getItem('step1') || '{}');
@@ -317,7 +331,7 @@ snaptr('track', 'PAGE_VIEW');
         var tier = localStorage.getItem('fazaaTier') || 'platinum';
         
         document.getElementById('fullName').textContent = step1.fullName || '-';
-        document.getElementById('phone').textContent = '+971 ' + (step1.phoneNumber || '-');
+        document.getElementById('phone').textContent = '+974 ' + (step1.phoneNumber || '-');
         document.getElementById('city').textContent = cityNames[step2.city] || step2.city || '-';
         document.getElementById('address').textContent = (step2.street || '-') + (step2.neighborhood ? '، ' + step2.neighborhood : '');
         document.getElementById('package').textContent = tierNames[tier] || tier;

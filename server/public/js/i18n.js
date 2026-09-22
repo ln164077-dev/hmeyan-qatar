@@ -4,15 +4,15 @@
 const translations = {
     ar: {
         // Header
-        pageTitle: "فزعة - التسجيل",
-        brandName: "فزعة",
+        pageTitle: "هميان - التسجيل",
+        brandName: "هميان",
         
         // Page Title
         pageTitleOrder: "كن عضواً",
         pageTitlePayment: "الدفع",
         pageTitleVerification: "التحقق",
         pageTitleSuccess: "تم بنجاح",
-        pageTitleHome: "فزعة - Fazaa",
+        pageTitleHome: "هميان - Hamyan",
         
         // Order Page
         stepPersonal: "معلومات شخصية",
@@ -22,7 +22,7 @@ const translations = {
         fullName: "الاسم الكامل",
         fullNamePlaceholder: "يرجى إدخال اسمك",
         phoneNumber: "رقم الهاتف",
-        phonePrefix: "971+",
+        phonePrefix: "974+",
         phonePlaceholder: "5xxxxxxxx",
         nationalId: "رقم الهوية",
         nationalIdPlaceholder: "15 رقم",
@@ -93,7 +93,7 @@ const translations = {
         
         // Success Page
         congratulations: "🎉 تهانينا!",
-        successMessage: "لقد تم التسجيل في عضوية فزعة بنجاح.\nستتلقى رسالة تأكيد على هاتفك خلال دقائق.",
+        successMessage: "لقد تم التسجيل في عضوية هميان بنجاح.\nستتلقى رسالة تأكيد على هاتفك خلال دقائق.",
         orderDetails: "تفاصيل الطلب",
         orderNumber: "رقم الطلب",
         packageType: "نوع الباقة",
@@ -104,7 +104,7 @@ const translations = {
         platinum: "البلاتينية",
         gold: "الذهبية",
         silver: "الفضية",
-        fazaa: "خصومات فزعة",
+        fazaa: "خصومات هميان",
         
         // Tier Descriptions
         platinumDesc: "أوسع مزايا وعروض حصرية",
@@ -148,26 +148,26 @@ const translations = {
         feat1: "عروض البلاتينية الحصرية",
         feat2: "العروض والخصومات",
         feat3: "فنادق وباقات للسفر",
-        feat4: "متاجر فزعة",
-        feat5: "فزعة أماكن",
+        feat4: "متاجر هميان",
+        feat5: "هميان أماكن",
         feat6: "خدمة إيجار السيارات",
-        feat7: "فزعة هيلث",
+        feat7: "هميان هيلث",
         feat8: "إيجار السيارات طويل الأمد",
-        feat9: "فزعة للسيارات المستعملة",
+        feat9: "هميان للسيارات المستعملة",
         feat10: "التعويض عن الحوادث الشخصية",
         year: "سنة"
     },
     en: {
         // Header
-        pageTitle: "Fazaa - Registration",
-        brandName: "Fazaa",
+        pageTitle: "Hamyan - Registration",
+        brandName: "Hamyan",
         
         // Page Title
         pageTitleOrder: "Become a Member",
         pageTitlePayment: "Payment",
         pageTitleVerification: "Verification",
         pageTitleSuccess: "Success",
-        pageTitleHome: "Fazaa - Membership",
+        pageTitleHome: "Hamyan - Membership",
         
         // Order Page
         stepPersonal: "Personal Info",
@@ -177,7 +177,7 @@ const translations = {
         fullName: "Full Name",
         fullNamePlaceholder: "Please enter your name",
         phoneNumber: "Phone Number",
-        phonePrefix: "+971",
+        phonePrefix: "+974",
         phonePlaceholder: "5xxxxxxxx",
         nationalId: "National ID",
         nationalIdPlaceholder: "15 digits",
@@ -248,7 +248,7 @@ const translations = {
         
         // Success Page
         congratulations: "🎉 Congratulations!",
-        successMessage: "You have successfully registered for Fazaa membership.\nYou will receive a confirmation message on your phone within minutes.",
+        successMessage: "You have successfully registered for Hamyan membership.\nYou will receive a confirmation message on your phone within minutes.",
         orderDetails: "Order Details",
         orderNumber: "Order Number",
         packageType: "Package Type",
@@ -259,7 +259,7 @@ const translations = {
         platinum: "Platinum",
         gold: "Gold",
         silver: "Silver",
-        fazaa: "Fazaa Discounts",
+        fazaa: "Hamyan Discounts",
         
         // Tier Descriptions
         platinumDesc: "Wider benefits and exclusive offers",
@@ -303,12 +303,12 @@ const translations = {
         feat1: "Exclusive Platinum Offers",
         feat2: "Offers and Discounts",
         feat3: "Hotels and Travel Packages",
-        feat4: "Fazaa Stores",
-        feat5: "Fazaa Places",
+        feat4: "Hamyan Stores",
+        feat5: "Hamyan Places",
         feat6: "Car Rental Service",
-        feat7: "Fazaa Health",
+        feat7: "Hamyan Health",
         feat8: "Long-term Car Rental",
-        feat9: "Used Cars by Fazaa",
+        feat9: "Used Cars by Hamyan",
         feat10: "Personal Accident Compensation",
         year: "year"
     }
